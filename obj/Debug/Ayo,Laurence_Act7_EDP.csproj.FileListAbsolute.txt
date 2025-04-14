@@ -1,0 +1,13 @@
+C:\Event_Driven_Prog\Ayo,Laurence_Act7_EDP\bin\Debug\Ayo,Laurence_Act7_EDP.exe
+C:\Event_Driven_Prog\Ayo,Laurence_Act7_EDP\obj\Debug\Ayo,Laurence_Act7_EDP.csproj.AssemblyReference.cache
+C:\Event_Driven_Prog\Ayo,Laurence_Act7_EDP\bin\Debug\Ayo,Laurence_Act7_EDP.exe.config
+C:\Event_Driven_Prog\Ayo,Laurence_Act7_EDP\bin\Debug\Ayo,Laurence_Act7_EDP.pdb
+C:\Event_Driven_Prog\Ayo,Laurence_Act7_EDP\obj\Debug\Ayo_Laurence_Act7_EDP.frmMainDashboard.resources
+C:\Event_Driven_Prog\Ayo,Laurence_Act7_EDP\obj\Debug\Ayo_Laurence_Act7_EDP.frmSplashScreen.resources
+C:\Event_Driven_Prog\Ayo,Laurence_Act7_EDP\obj\Debug\Ayo_Laurence_Act7_EDP.frmLoginSignup.resources
+C:\Event_Driven_Prog\Ayo,Laurence_Act7_EDP\obj\Debug\Ayo_Laurence_Act7_EDP.frmStudentManagement.resources
+C:\Event_Driven_Prog\Ayo,Laurence_Act7_EDP\obj\Debug\Ayo_Laurence_Act7_EDP.Properties.Resources.resources
+C:\Event_Driven_Prog\Ayo,Laurence_Act7_EDP\obj\Debug\Ayo,Laurence_Act7_EDP.csproj.GenerateResource.cache
+C:\Event_Driven_Prog\Ayo,Laurence_Act7_EDP\obj\Debug\Ayo,Laurence_Act7_EDP.csproj.CoreCompileInputs.cache
+C:\Event_Driven_Prog\Ayo,Laurence_Act7_EDP\obj\Debug\Ayo,Laurence_Act7_EDP.exe
+C:\Event_Driven_Prog\Ayo,Laurence_Act7_EDP\obj\Debug\Ayo,Laurence_Act7_EDP.pdb
