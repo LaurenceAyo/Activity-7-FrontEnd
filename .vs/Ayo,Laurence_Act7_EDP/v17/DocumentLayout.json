@@ -3,31 +3,67 @@
   "WorkspaceRootPath": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|c:\\event_driven_prog\\ayo,laurence_act7_edp\\frmstudentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmstudentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmmaindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmmaindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmmaindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmmaindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmloginsignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmloginsignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|c:\\event_driven_prog\\ayo,laurence_act7_edp\\frmstudentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmstudentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|c:\\event_driven_prog\\ayo,laurence_act7_edp\\frmstudentmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmstudentmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmcoursemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmcoursemanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmmaindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmmaindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|c:\\event_driven_prog\\ayo,laurence_act7_edp\\frmstudentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmstudentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|c:\\event_driven_prog\\ayo,laurence_act7_edp\\frmmaindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|c:\\event_driven_prog\\ayo,laurence_act7_edp\\frmprofessormanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmprofessormanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|c:\\event_driven_prog\\ayo,laurence_act7_edp\\frmattendance.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmattendance.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|c:\\event_driven_prog\\ayo,laurence_act7_edp\\frmattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|c:\\event_driven_prog\\ayo,laurence_act7_edp\\frmgrades.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmgrades.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmmaindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmmaindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmstudentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmstudentmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmstudentmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmstudentmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmmaindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmmaindashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,32 +71,12 @@
       "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmloginsignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|c:\\event_driven_prog\\ayo,laurence_act7_edp\\frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|c:\\event_driven_prog\\ayo,laurence_act7_edp\\frmloginsignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmloginsignup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|c:\\event_driven_prog\\ayo,laurence_act7_edp\\frmloginsignup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmloginsignup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmloginsignup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmgrades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|solutionrelative:frmenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7298A096-0DE4-4F4B-B28A-77A3C8FF8B22}|Ayo,Laurence_Act7_EDP.csproj|C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmsplashscreen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,58 +94,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frmStudentManagement.Designer.cs",
-              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmStudentManagement.Designer.cs",
-              "RelativeDocumentMoniker": "frmStudentManagement.Designer.cs",
-              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmStudentManagement.Designer.cs",
-              "RelativeToolTip": "frmStudentManagement.Designer.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAtwGYAAAAAAAAAAAAAAA==",
+              "Title": "frmEnrollment.cs [Design]",
+              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmEnrollment.cs",
+              "RelativeDocumentMoniker": "frmEnrollment.cs",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmEnrollment.cs [Design]",
+              "RelativeToolTip": "frmEnrollment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:03:43.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmStudentManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmStudentManagement.cs",
-              "RelativeDocumentMoniker": "frmStudentManagement.cs",
-              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmStudentManagement.cs [Design]",
-              "RelativeToolTip": "frmStudentManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:03:21.097Z",
+              "WhenOpened": "2025-04-13T06:58:52.101Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmStudentManagement.cs",
-              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmStudentManagement.cs",
-              "RelativeDocumentMoniker": "frmStudentManagement.cs",
-              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmStudentManagement.cs",
-              "RelativeToolTip": "frmStudentManagement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Title": "frmGrades.cs [Design]",
+              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmGrades.cs",
+              "RelativeDocumentMoniker": "frmGrades.cs",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmGrades.cs [Design]",
+              "RelativeToolTip": "frmGrades.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:03:35.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T07:00:20.901Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmMainDashboard.cs",
+              "Title": "frmLoginSignup.cs [Design]",
+              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmLoginSignup.cs",
+              "RelativeDocumentMoniker": "frmLoginSignup.cs",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmLoginSignup.cs [Design]",
+              "RelativeToolTip": "frmLoginSignup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:57:52.02Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMainDashboard.cs [Design]",
               "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmMainDashboard.cs",
               "RelativeDocumentMoniker": "frmMainDashboard.cs",
-              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmMainDashboard.cs",
-              "RelativeToolTip": "frmMainDashboard.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAlwCkAAAArAAAAAAAAAA==",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmMainDashboard.cs [Design]",
+              "RelativeToolTip": "frmMainDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T07:20:32.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T06:54:47.948Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -146,18 +159,131 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "frmMainDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmMainDashboard.cs",
-              "RelativeDocumentMoniker": "frmMainDashboard.cs",
-              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmMainDashboard.cs [Design]",
-              "RelativeToolTip": "frmMainDashboard.cs [Design]",
+              "Title": "frmStudentManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmStudentManagement.cs",
+              "RelativeDocumentMoniker": "frmStudentManagement.cs",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmStudentManagement.cs [Design]",
+              "RelativeToolTip": "frmStudentManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T06:54:47.948Z",
+              "WhenOpened": "2025-04-14T12:03:21.097Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "frmProfessorManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmProfessorManagement.cs",
+              "RelativeDocumentMoniker": "frmProfessorManagement.cs",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmProfessorManagement.cs [Design]",
+              "RelativeToolTip": "frmProfessorManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:09:00.763Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmSplashScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmSplashScreen.cs",
+              "RelativeDocumentMoniker": "frmSplashScreen.cs",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmSplashScreen.cs [Design]",
+              "RelativeToolTip": "frmSplashScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:55:17.688Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmAttendance.cs [Design]",
+              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmAttendance.cs",
+              "RelativeDocumentMoniker": "frmAttendance.cs",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmAttendance.cs [Design]",
+              "RelativeToolTip": "frmAttendance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T06:59:57.417Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmGrades.Designer.cs",
+              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmGrades.Designer.cs",
+              "RelativeDocumentMoniker": "frmGrades.Designer.cs",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmGrades.Designer.cs",
+              "RelativeToolTip": "frmGrades.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:19:20.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmAttendance.Designer.cs",
+              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmAttendance.Designer.cs",
+              "RelativeDocumentMoniker": "frmAttendance.Designer.cs",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmAttendance.Designer.cs",
+              "RelativeToolTip": "frmAttendance.Designer.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAtwFQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:21:37.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmAttendance.cs",
+              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmAttendance.cs",
+              "RelativeDocumentMoniker": "frmAttendance.cs",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmAttendance.cs",
+              "RelativeToolTip": "frmAttendance.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAtwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T04:21:27.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmStudentManagement.cs",
+              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmStudentManagement.cs",
+              "RelativeDocumentMoniker": "frmStudentManagement.cs",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmStudentManagement.cs",
+              "RelativeToolTip": "frmStudentManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:03:35.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmStudentManagement.Designer.cs",
+              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmStudentManagement.Designer.cs",
+              "RelativeDocumentMoniker": "frmStudentManagement.Designer.cs",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmStudentManagement.Designer.cs",
+              "RelativeToolTip": "frmStudentManagement.Designer.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAtwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:03:43.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmMainDashboard.cs",
+              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmMainDashboard.cs",
+              "RelativeDocumentMoniker": "frmMainDashboard.cs",
+              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmMainDashboard.cs",
+              "RelativeToolTip": "frmMainDashboard.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAlwCkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T07:20:32.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "frmMainDashboard.Designer.cs",
               "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmMainDashboard.Designer.cs",
               "RelativeDocumentMoniker": "frmMainDashboard.Designer.cs",
@@ -170,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "frmLoginSignup.cs",
               "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmLoginSignup.cs",
               "RelativeDocumentMoniker": "frmLoginSignup.cs",
@@ -183,19 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmSplashScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmSplashScreen.cs",
-              "RelativeDocumentMoniker": "frmSplashScreen.cs",
-              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmSplashScreen.cs [Design]",
-              "RelativeToolTip": "frmSplashScreen.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:55:17.688Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "frmSplashScreen.cs",
               "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmSplashScreen.cs",
               "RelativeDocumentMoniker": "frmSplashScreen.cs",
@@ -208,19 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmLoginSignup.cs [Design]",
-              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmLoginSignup.cs",
-              "RelativeDocumentMoniker": "frmLoginSignup.cs",
-              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmLoginSignup.cs [Design]",
-              "RelativeToolTip": "frmLoginSignup.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:57:52.02Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "frmLoginSignup.Designer.cs",
               "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmLoginSignup.Designer.cs",
               "RelativeDocumentMoniker": "frmLoginSignup.Designer.cs",
@@ -233,40 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frmGrades.cs [Design]",
-              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmGrades.cs",
-              "RelativeDocumentMoniker": "frmGrades.cs",
-              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmGrades.cs [Design]",
-              "RelativeToolTip": "frmGrades.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T07:00:20.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "frmAttendance.cs [Design]",
-              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmAttendance.cs",
-              "RelativeDocumentMoniker": "frmAttendance.cs",
-              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmAttendance.cs [Design]",
-              "RelativeToolTip": "frmAttendance.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T06:59:57.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "frmEnrollment.cs [Design]",
-              "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmEnrollment.cs",
-              "RelativeDocumentMoniker": "frmEnrollment.cs",
-              "ToolTip": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmEnrollment.cs [Design]",
-              "RelativeToolTip": "frmEnrollment.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T06:58:52.101Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -278,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "frmSplashScreen.Designer.cs",
               "DocumentMoniker": "C:\\Event_Driven_Prog\\Ayo,Laurence_Act7_EDP\\frmSplashScreen.Designer.cs",
               "RelativeDocumentMoniker": "frmSplashScreen.Designer.cs",
