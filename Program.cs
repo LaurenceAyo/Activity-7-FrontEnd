@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OfficeOpenXml;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,9 +15,14 @@ namespace Ayo_Laurence_Act7_EDP
         [STAThread]
         static void Main()
         {
+            // Add this to your program startup (Program.cs)
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial; // For free use
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmSplashScreen());
+
+            
         }
     }
 }

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.gradesViewTable = new System.Windows.Forms.DataGridView();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -40,7 +40,9 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.refreshbtn = new System.Windows.Forms.Button();
+            this.backBtn = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.gradesViewTable)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -53,15 +55,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Students\' Academic Performance Ratings";
             // 
-            // dataGridView1
+            // gradesViewTable
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(56, 163);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(841, 365);
-            this.dataGridView1.TabIndex = 1;
+            this.gradesViewTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gradesViewTable.Location = new System.Drawing.Point(56, 163);
+            this.gradesViewTable.Name = "gradesViewTable";
+            this.gradesViewTable.RowHeadersWidth = 51;
+            this.gradesViewTable.RowTemplate.Height = 24;
+            this.gradesViewTable.Size = new System.Drawing.Size(841, 365);
+            this.gradesViewTable.TabIndex = 1;
+            this.gradesViewTable.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gradesViewTable_CellContentClick);
             // 
             // comboBox1
             // 
@@ -149,11 +152,33 @@
             this.button4.Text = "DELETE";
             this.button4.UseVisualStyleBackColor = true;
             // 
+            // refreshbtn
+            // 
+            this.refreshbtn.Location = new System.Drawing.Point(945, 339);
+            this.refreshbtn.Name = "refreshbtn";
+            this.refreshbtn.Size = new System.Drawing.Size(114, 23);
+            this.refreshbtn.TabIndex = 12;
+            this.refreshbtn.Text = "Refresh";
+            this.refreshbtn.UseVisualStyleBackColor = true;
+            this.refreshbtn.Click += new System.EventHandler(this.refreshbtn_Click);
+            // 
+            // backBtn
+            // 
+            this.backBtn.Location = new System.Drawing.Point(56, 19);
+            this.backBtn.Name = "backBtn";
+            this.backBtn.Size = new System.Drawing.Size(75, 23);
+            this.backBtn.TabIndex = 13;
+            this.backBtn.Text = "back";
+            this.backBtn.UseVisualStyleBackColor = true;
+            this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
+            // 
             // frmGrades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1147, 540);
+            this.Controls.Add(this.backBtn);
+            this.Controls.Add(this.refreshbtn);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -164,11 +189,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.gradesViewTable);
             this.Controls.Add(this.label1);
             this.Name = "frmGrades";
             this.Text = "frmGrades";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gradesViewTable)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -177,7 +202,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView gradesViewTable;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -188,5 +213,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button refreshbtn;
+        private System.Windows.Forms.Button backBtn;
     }
 }

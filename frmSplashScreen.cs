@@ -18,17 +18,7 @@ namespace Ayo_Laurence_Act7_EDP
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            // Create an instance of frmMainDashboard
-            frmMainDashboard mainDashboard = new frmMainDashboard(this);
-
-            // Show the main dashboard form
-            mainDashboard.Show();
-
-            // Optionally, hide or close the current splash screen
-            this.Hide(); // Use this.Close() if you want to close the form instead
-        }
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -45,6 +35,16 @@ namespace Ayo_Laurence_Act7_EDP
         private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void forgotPassButton_Click(object sender, EventArgs e)
+        {
+            // Hide or close the current form
+            this.Hide(); // or this.Close() depending on your desired flow
+
+            // Create and show the AnswerMePrompt form
+            var answerPromptForm = new AnswerMePrompt(); // Pass current form as owner
+            answerPromptForm.Show();
         }
     }
 }

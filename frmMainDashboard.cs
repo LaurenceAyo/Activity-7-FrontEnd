@@ -1,78 +1,119 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Ayo_Laurence_Act7_EDP
 {
     public partial class frmMainDashboard : Form
     {
-        Form previousForm;
-        public frmMainDashboard(Form prev)
+        private readonly Form _previousForm;
+
+        public frmMainDashboard(Form previousForm)
         {
             InitializeComponent();
-            previousForm = prev;
+            _previousForm = previousForm;
 
-            // Set ComboBox items (you can also do this in frmMainDashboard_Load)
-            cmbForms.Items.Clear();
-            cmbForms.Items.Add("Student");
-            cmbForms.Items.Add("Professor");
-            cmbForms.Items.Add("Grades");
-            cmbForms.Items.Add("Courses");
-            cmbForms.Items.Add("Enrollment");
-            cmbForms.Items.Add("Attendance");
-            cmbForms.SelectedIndex = -1; // Ensure no role is selected by default
+            // Initialize ComboBox
+            cmbForms.Items.AddRange(new object[] {
+                "Student",
+                "Professor",
+                "Grades",
+                "Courses",
+                "Enrollment",
+                "Attendance"
+            });
+            cmbForms.SelectedIndex = -1;
         }
 
-        private void btnProceed_Click(object sender, EventArgs e)
+        private void BtnProceed_Click(object sender, EventArgs e)
         {
-            string selectedRole = cmbForms.SelectedItem?.ToString();
-
-            if (string.IsNullOrEmpty(selectedRole))
+            if (cmbForms.SelectedItem == null)
             {
-                MessageBox.Show("Please select a Form first.", "No Selection", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please select a Form first.", "No Selection",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            switch (selectedRole.ToLower())
+            Form formToOpen = null;
+            string selectedForm = cmbForms.SelectedItem.ToString();
+
+            // Traditional switch statement for C# 7.3 compatibility
+            switch (selectedForm)
             {
-                case "student":
-                    new frmStudentManagement(this).Show();
+                case "Student":
+                    formToOpen = new frmStudentManagement(this);
                     break;
-                case "professor":
-                    new frmProfessorManagement().Show();
+                case "Professor":
+                    formToOpen = new frmProfessorManagement();
                     break;
-                case "grades":
-                    new frmGrades().Show();
+                case "Grades":
+                    formToOpen = new frmGrades();
                     break;
-                case "courses":
-                    new frmCourseManagement().Show();
+                case "Courses":
+                    formToOpen = new frmCourseManagement();
                     break;
-                case "enrollment":
-                    new frmEnrollment().Show();
+                case "Enrollment":
+                    formToOpen = new frmEnrollment();
                     break;
-                case "attendance":
-                    new frmAttendance().Show(); 
+                case "Attendance":
+                    formToOpen = new frmAttendance();
                     break;
-                default:
-                    MessageBox.Show("Invalid role selected.");
-                    return;
             }
 
-            this.Hide(); // Optional: hides current form after redirect
+            if (formToOpen != null)
+            {
+                formToOpen.Show();
+                this.Hide();
+            }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
-            previousForm.Show(); // Show the form that opened this one
-            this.Close();
+            // Return to login form
+            ReturnToLogin();
         }
 
-        
+        private void ReturnToLogin()
+        {
+            // First make sure the login form exists and isn't disposed
+            if (_previousForm != null && !_previousForm.IsDisposed)
+            {
+                // Show the login form
+                _previousForm.Show();
+
+                // Reset login form state if needed
+                if (_previousForm is frmLoginSignup loginForm)
+                {
+                    loginForm.ResetForm(); // Add this method to your login form
+                }
+
+                // Close the dashboard
+                this.Close();
+            }
+            else
+            {
+                // If login form was disposed, create a new one
+                frmLoginSignup newLogin = new frmLoginSignup();
+                newLogin.Show();
+                this.Close();
+            }
+        }
+
+
+        private void frmMainDashboard_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // If user closes via X button, show login form
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                if (_previousForm != null && !_previousForm.IsDisposed)
+                {
+                    _previousForm.Show();
+                }
+            }
+        }
+
+        private void frmMainDashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

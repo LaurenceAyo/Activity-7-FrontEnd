@@ -33,11 +33,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.enrolledStudentsTable = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.backBtn = new System.Windows.Forms.Button();
+            this.refreshBtn = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.enrolledStudentsTable)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -83,15 +85,16 @@
             this.button1.Text = "ENROLL STUDENT";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // enrolledStudentsTable
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(32, 211);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(939, 316);
-            this.dataGridView1.TabIndex = 5;
+            this.enrolledStudentsTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.enrolledStudentsTable.Location = new System.Drawing.Point(32, 211);
+            this.enrolledStudentsTable.Name = "enrolledStudentsTable";
+            this.enrolledStudentsTable.RowHeadersWidth = 51;
+            this.enrolledStudentsTable.RowTemplate.Height = 24;
+            this.enrolledStudentsTable.Size = new System.Drawing.Size(939, 316);
+            this.enrolledStudentsTable.TabIndex = 5;
+            this.enrolledStudentsTable.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.enrolledStudentsTable_CellContentClick);
             // 
             // label3
             // 
@@ -121,15 +124,38 @@
             this.button2.Text = "Delete Student";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // backBtn
+            // 
+            this.backBtn.Location = new System.Drawing.Point(32, 40);
+            this.backBtn.Name = "backBtn";
+            this.backBtn.Size = new System.Drawing.Size(75, 23);
+            this.backBtn.TabIndex = 9;
+            this.backBtn.Text = "back";
+            this.backBtn.UseVisualStyleBackColor = true;
+            this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
+            // 
+            // refreshBtn
+            // 
+            this.refreshBtn.Location = new System.Drawing.Point(192, 173);
+            this.refreshBtn.Name = "refreshBtn";
+            this.refreshBtn.Size = new System.Drawing.Size(93, 23);
+            this.refreshBtn.TabIndex = 10;
+            this.refreshBtn.Text = "Refresh";
+            this.refreshBtn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.refreshBtn.UseVisualStyleBackColor = true;
+            this.refreshBtn.Click += new System.EventHandler(this.refreshBtn_Click);
+            // 
             // frmEnrollment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1176, 552);
+            this.Controls.Add(this.refreshBtn);
+            this.Controls.Add(this.backBtn);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.enrolledStudentsTable);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -137,7 +163,7 @@
             this.Controls.Add(this.comboBox1);
             this.Name = "frmEnrollment";
             this.Text = "frmEnrollment";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.enrolledStudentsTable)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -150,9 +176,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView enrolledStudentsTable;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button backBtn;
+        private System.Windows.Forms.Button refreshBtn;
     }
 }

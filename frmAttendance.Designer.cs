@@ -39,12 +39,14 @@
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button3 = new System.Windows.Forms.Button();
+            this.attendanceTable = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.backBtn = new System.Windows.Forms.Button();
+            this.refreshBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.attendanceTable)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -160,15 +162,26 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Student Input";
             // 
-            // dataGridView1
+            // button3
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(454, 80);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(498, 352);
-            this.dataGridView1.TabIndex = 11;
+            this.button3.BackColor = System.Drawing.Color.Aquamarine;
+            this.button3.Location = new System.Drawing.Point(148, 298);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "Submit";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // attendanceTable
+            // 
+            this.attendanceTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.attendanceTable.Location = new System.Drawing.Point(454, 80);
+            this.attendanceTable.Name = "attendanceTable";
+            this.attendanceTable.RowHeadersWidth = 51;
+            this.attendanceTable.RowTemplate.Height = 24;
+            this.attendanceTable.Size = new System.Drawing.Size(498, 352);
+            this.attendanceTable.TabIndex = 11;
+            this.attendanceTable.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.attendanceTable_CellContentClick);
             // 
             // button1
             // 
@@ -188,31 +201,44 @@
             this.button2.Text = "Mark Attendance";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // backBtn
             // 
-            this.button3.BackColor = System.Drawing.Color.Aquamarine;
-            this.button3.Location = new System.Drawing.Point(148, 298);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Submit";
-            this.button3.UseVisualStyleBackColor = false;
+            this.backBtn.Location = new System.Drawing.Point(34, 454);
+            this.backBtn.Name = "backBtn";
+            this.backBtn.Size = new System.Drawing.Size(75, 23);
+            this.backBtn.TabIndex = 14;
+            this.backBtn.Text = "Back";
+            this.backBtn.UseVisualStyleBackColor = true;
+            this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
+            // 
+            // refreshBtn
+            // 
+            this.refreshBtn.Location = new System.Drawing.Point(877, 454);
+            this.refreshBtn.Name = "refreshBtn";
+            this.refreshBtn.Size = new System.Drawing.Size(75, 23);
+            this.refreshBtn.TabIndex = 15;
+            this.refreshBtn.Text = "Refresh";
+            this.refreshBtn.UseVisualStyleBackColor = true;
+            this.refreshBtn.Click += new System.EventHandler(this.refreshBtn_Click);
             // 
             // frmAttendance
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(994, 521);
+            this.Controls.Add(this.refreshBtn);
+            this.Controls.Add(this.backBtn);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.attendanceTable);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Name = "frmAttendance";
-            this.Text = "frmAttendance";
+            this.Text = "Attendance Form";
+            this.Load += new System.EventHandler(this.frmAttendance_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.attendanceTable)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -231,9 +257,11 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView attendanceTable;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button backBtn;
+        private System.Windows.Forms.Button refreshBtn;
     }
 }

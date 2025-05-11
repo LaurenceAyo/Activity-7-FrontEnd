@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Ayo_Laurence_Act7_EDP;
+using MySql.Data.MySqlClient;
 
 namespace Ayo_Laurence_Act7_EDP
 {
@@ -16,10 +18,7 @@ namespace Ayo_Laurence_Act7_EDP
         public frmLoginSignup()
         {
             InitializeComponent();
-            cmbRole.Items.Add("Student");
-            cmbRole.Items.Add("Professor");
-            cmbRole.Items.Add("Admin");
-            cmbRole.SelectedIndex = 0; // Optional default
+            
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -29,15 +28,34 @@ namespace Ayo_Laurence_Act7_EDP
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Get text from the textbox
-            //string Username = username_string.Text;
-            //string Password = password_string.Text;
+            string username = txtUsername.Text.Trim();
+            string password = txtPassword.Text;
 
-            // Show the text in a message box
-            frmMainDashboard dashboard = new frmMainDashboard(this);
-            dashboard.Show();
-            this.Hide();
+            // Validate inputs
+            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            {
+                MessageBox.Show("Username and password are required!");
+                return;
+            }
+
+            // Authenticate user
+            var (success, user) = DBManager.AuthenticateUser(username, password);
+
+            if (success)
+            {
+                // Login successful
+                frmMainDashboard dashboard = new frmMainDashboard(this);
+                dashboard.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Invalid credentials", "Login Failed",
+                              MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
+
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -59,17 +77,62 @@ namespace Ayo_Laurence_Act7_EDP
             if (isPasswordShown)
             {
                 // Hide the password
-                password_string.UseSystemPasswordChar = true;
+                txtPassword.UseSystemPasswordChar = true;
                 ShowPassword.Text = "Show Password";
                 isPasswordShown = false;
             }
             else
             {
                 // Show the password
-                password_string.UseSystemPasswordChar = false;
+                txtPassword.UseSystemPasswordChar = false;
                 ShowPassword.Text = "Hide Password";
                 isPasswordShown = true;
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPasswod(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsernme(object sender, EventArgs e)
+        {
+
+        }
+
+        private void password_string_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void createAccountBtn_Click(object sender, EventArgs e)
+        {
+            // Create and show the account creation form
+            frmCreateAccount createAccountForm = new frmCreateAccount();
+            createAccountForm.Show();
+        }
+
+        public void ResetForm()
+        {
+            // Clear any existing inputs
+            txtUsername.Text = "";
+            txtPassword.Text = "";
+
+            // Reset focus
+            txtUsername.Focus();
+
+            // Optional: Reset any other state
+            // errorLabel.Visible = false;
         }
     }
 }
